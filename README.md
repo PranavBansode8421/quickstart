@@ -40,4 +40,4 @@ Contributions are welcome! If you have suggestions, improvements, or bug fixes, 
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-<p align="center"> Made with ❤️ by <a href="https://github.com/PranavBansode8421">Pranav Bansode</a> </p> ```
+<p align="center"> Made with ❤️ by <a href="https://github.com/PranavBansode8421">Pranav Bansode</a> </p>
