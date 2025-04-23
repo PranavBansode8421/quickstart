@@ -1,0 +1,92 @@
+.pricelayout h1 {
+  font-family: Nunito1, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: rgb(62, 80, 85);
+}
+.pricelayout p {
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(61, 67, 72);
+}
+.price-card h3 {
+  font-family: Nunito1, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(62, 80, 85);
+}
+.price-card p {
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(61, 67, 72);
+}
+.price-card h4 {
+  font-family: Nunito1, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  color: rgb(56, 141, 168);
+}
+.price-card sub {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: color(srgb 0.239216 0.262745 0.282353 / 0.5);
+}
+.price-card .bi-check {
+  color: #059652;
+  font-size: 24px;
+  padding-right: 3px;
+}
+.price-card .bi-x {
+  color: #8b8b8b;
+  font-size: 24px;
+  padding-right: 3px;
+  
+} 
+.price-card ul {
+  list-style: none;
+}
+.price-card ul span {
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: color(srgb 0.239216 0.262745 0.282353 / 0.7);
+}
+.pricewrap {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.pricewrap:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+.button{
+    background-color:#F7FBFC ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+.button:hover{
+    background-color:#388DA8 ;
+    border:1px solid #388DA8;
+    color: white;
+    transition:  all 0.3s ease;
+}
+.text-linethrough {
+  text-decoration: line-through;
+}

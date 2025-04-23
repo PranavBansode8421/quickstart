@@ -1,0 +1,91 @@
+.features-h1 {
+  font-family: Nunito1, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: rgb(62, 80, 85);
+}
+/* .features h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #388da8;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+} */
+.features-p {
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(61, 67, 72);
+}
+.featuredata i {
+  background-color: white;
+  color: #388da8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  width: 48px;
+  height: 48px;
+  font-size: 22px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.featuredata p {
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: rgb(61, 67, 72);
+}
+.featuredata h4 {
+  font-family: Nunito1, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(62, 80, 85);
+}
+.featuredata {
+  border-radius: 15px;
+  background-color: hsl(192, 45%, 98%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.featuredata:hover {
+  background-color: hsl(195, 80%, 96%);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  cursor:pointer;
+}
+.featuredata:active {
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: all 0.1s ease;
+
+}
+.featureimg {
+  border-radius: 15px;
+}
+.featuredata button {
+  color: #ffffff;
+  background-color: #388da8;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featuredata button:hover {
+  background-color: hwb(194 32% 15%);
+}
